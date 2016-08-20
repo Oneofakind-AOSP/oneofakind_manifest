@@ -542,6 +542,8 @@
   <project path="build" name="android_build" groups="pdk" remote="oneofakind" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="device/lge/mako" name="android_device_lge_mako" remote="oneofakind" />
+  <project path="device/lge/mako-kernel" name="android_device_lge_mako-kernel" remote="oneofakind" />
   <project path="external/busybox" name="android_external_busybox" remote="oneofakind" />
   <project path="external/chromium-webview" name="android_external_chromium-webview" remote="oneofakind" />
   <project path="external/libpng" name="android_external_libpng" groups="pdk" remote="oneofakind" />
@@ -555,6 +557,7 @@
   <project path="packages/apps/OneofakindHomeOsb" name="android_packages_apps_OneofakindHomeOsb" remote="oneofakind" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" groups="pdk-fs" remote="oneofakind" />
   <project path="system/extras" name="android_system_extras" groups="pdk" remote="oneofakind" />
+  <project path="vendor/lge" name="android_vendor_lge" remote="oneofakind" />
   <project path="vendor/oneofakind" name="android_vendor_oneofakind" remote="oneofakind" />
 
 </manifest>
